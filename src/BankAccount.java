@@ -19,17 +19,22 @@ public class BankAccount {
 
     public void depositCash(int amount){
         this.balance += amount;
-        System.out.println("Deposit is successful");
+        System.out.println("Deposit is successful .Your balance is :" +getBalance());
     }
 
     public void withdrawCash(int amount){
         if(this.balance>=amount){
             this.balance -= amount;
-            System.out.println("Withdraw is Successfully");
+            System.out.println("Withdraw is Successfully.You Balance is : " +getBalance());
         }
         else{
-            System.out.println("No sufficient Balance");
+            System.out.println("No sufficient Balance.Your Balance is :" +getBalance());
         }
+
+    }
+
+    public int getBalance(){
+        return this.balance;
     }
 
 
