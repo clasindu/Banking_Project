@@ -4,6 +4,7 @@ public class Main {
 
         AccountHolder jane =new AccountHolder("Jane Anderson", "06/05/1998" ,"Colombo");
         System.out.println(jane.name);
+        System.out.println(jane.address);
 
     }
 }
