@@ -6,5 +6,9 @@ public class Main {
         System.out.println(jane.name);
         System.out.println(jane.address);
 
+        BankAccount lasi = new BankAccount("Chamath Lasindu","30/05/2000" ,"Newtown,Ratnapura" ,"2933839389", "sv");
+        System.out.println(lasi.name);
+        System.out.println(lasi.accountNumber);
+
     }
 }
