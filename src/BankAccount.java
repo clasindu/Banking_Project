@@ -7,7 +7,7 @@ public class BankAccount {
     public String accountType;
     public int balance;
 
-    public BankAccount(String name , String birthday ,String address, String accountNumber , String accountType){
+    public BankAccount(String name , String birthday ,String address, String accountNumber , String accountType){ //constructor
         this.name        =  name;
         this.birthday    =  birthday;
         this.address     =  address;
